@@ -1,0 +1,21 @@
+{
+    "logging": {
+    "level": "trace",
+    "filename": "./bot_logs/bot.log",
+    "quiet": true,
+    "overwrite": false,
+    "use_color": false,
+    "http": {
+        "enable": true,
+        "filename": "./bot_logs/network.log"
+    },
+    "disable_modules": ["WEBSOCKETS", "USER_AGENT"]
+    },
+    "discord": {
+    "token": "token",
+    "default_prefix": {
+        "enable": true,
+        "prefix": "&"
+    }
+}
+}
